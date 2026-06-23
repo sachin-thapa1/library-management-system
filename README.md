@@ -1,9 +1,8 @@
-```markdown
 # Library Management System
 
-A production-ready REST API for managing library operations — built with Spring Boot 3.3, JWT authentication, and PostgreSQL. Delivered to Siddhanath Science Campus, Kanchanpur, covering three departments: BSc.CSIT, BIT, and BSc. Science.
+A production-ready REST API for managing library operations — built with Spring Boot, JWT authentication, and PostgreSQL. Delivered to Siddhanath Science Campus, Kanchanpur, covering three departments: BSc.CSIT, BIT, and BSc. Science.
 
-> Source code only — no live deployment. Clone and run locally using the setup instructions below.
+**Note:** Source code only — no live deployment. Clone and run locally using the setup instructions below.
 
 ---
 
@@ -117,7 +116,7 @@ spring.jpa.open-in-view=false
 jwt.secret=YOUR_JWT_SECRET_MIN_32_CHARS
 ```
 
-> Never commit real credentials. Add `application-dev.properties` to your `.gitignore`.
+**Note:** Never commit real credentials. Add `application-dev.properties` to your `.gitignore`.
 
 **3. Run the application**
 ```bash
@@ -154,6 +153,3 @@ Departments: BSc.CSIT · BIT · BSc. Science
 ## License
 
 MIT
-```
-
----
